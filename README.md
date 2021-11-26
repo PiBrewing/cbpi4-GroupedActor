@@ -30,11 +30,11 @@ Afterwards you will need to activate the plugin:
 
 - You can add individual Actors to your dashboard
 - Add the grouped Actor to your dashboard and enable actions to set power for the actor group
-- The example below shos the gouped actor and the two actors that are in the group:
+- The example below shows the grouped actor and the two actors that are in the group:
 
 ![Settings](https://github.com/avollkopf/cbpi4-GroupedActor/blob/main/cbpi4-actorgroup.png?raw=true)
 
-- If you click on the gorpued actor buton, both actors in the group will be switched on.
+- If you click on the grouped actor button, both actors in the group will be switched on.
 
 ![Settings](https://github.com/avollkopf/cbpi4-GroupedActor/blob/main/cbpi4-actorgroup-active.png?raw=true)
 
