@@ -1,11 +1,11 @@
 
 # -*- coding: utf-8 -*-
-import os
-from aiohttp import web
+#import os
+#from aiohttp import web
 import logging
-from unittest.mock import MagicMock, patch
+#from unittest.mock import MagicMock, patch
 import asyncio
-import random
+#import random
 from cbpi.api import *
 from cbpi.api.base import CBPiBase
 
@@ -62,13 +62,13 @@ class GroupedActor(CBPiActor):
 
         for actor in self.actors:
             await self.cbpi.actor.on(actor,self.power)
-            self.state = True
-        await self.cbpi.actor.actor_update(self.id,power)
+        self.state = True
+        await self.cbpi.actor.actor_update(self.id,self.power)
 
     async def off(self):
         for actor in self.actors:
             await self.cbpi.actor.off(actor)
-            self.state = False
+        self.state = False
 
     def get_state(self):
         return self.state
@@ -78,7 +78,7 @@ class GroupedActor(CBPiActor):
         for actor in self.actors:
             await self.cbpi.actor.set_power(actor,self.power)
 
-        await self.cbpi.actor.actor_update(self.id,power)
+        await self.cbpi.actor.actor_update(self.id,self.power)
         pass
     
     async def run(self):

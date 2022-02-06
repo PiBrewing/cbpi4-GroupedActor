@@ -54,5 +54,6 @@ The grouped actor can be alo used in the Kettle Logic plugins that use power set
 
 Changelog:
 
+- 06.02.22: (0.0.3) Some minor fixes 
 - 26.11.21: (0.0.2) Added power settings to the grouped actor and created README
 - 23.07.21: (0.0.1) Initial commit
