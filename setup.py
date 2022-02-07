@@ -7,7 +7,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(name='cbpi4-GroupedActor',
-      version='0.0.3',
+      version='0.0.4',
       description='CraftBeerPi Plugin',
       author='Alexander VOllkopf',
       author_email='avollkopf@web.de',

@@ -63,7 +63,7 @@ class GroupedActor(CBPiActor):
         for actor in self.actors:
             await self.cbpi.actor.on(actor,self.power)
         self.state = True
-        await self.cbpi.actor.actor_update(self.id,self.power)
+#        await self.cbpi.actor.actor_update(self.id,self.power)
 
     async def off(self):
         for actor in self.actors:
