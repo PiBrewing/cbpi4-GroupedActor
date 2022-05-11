@@ -15,10 +15,6 @@ You can install it directly via pypi.org:
 Alternativeley you can install (or clone) it from the GIT Repo. In case of updates, you will find them here first:
 - sudo pip3 install https://github.com/avollkopf/cbpi4-GroupedActor/archive/main.zip
 
-Afterwards you will need to activate the plugin:
-- cbpi add cbpi4-GroupedActor
-	
-- cbpi >= 4.0.0.45 from my fork is required. 
 
 ## Parameters:
 
@@ -54,6 +50,7 @@ The grouped actor can be alo used in the Kettle Logic plugins that use power set
 
 Changelog:
 
+- 11.05.22: (0.0.5) Updated README (removed cbpi add)
 - 07.02.22: (0.0.4) Removal of duplicated mqtt messages
 - 06.02.22: (0.0.3) Some minor fixes 
 - 26.11.21: (0.0.2) Added power settings to the grouped actor and created README
